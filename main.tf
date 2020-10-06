@@ -32,7 +32,7 @@ data "mso_schema" "hybrid_cloud" {
 }
 
 resource "mso_rest" "azure_site" {
-  path = "api/v1/schemas/${mso_schema.hybrid_cloud.id}"
+  path = "api/v1/schemas/${data.mso_schema.hybrid_cloud.id}"
   method = "PATCH"
   payload = <<EOF
 [
