@@ -40,7 +40,7 @@ resource "mso_rest" "azure_site" {
     "op": "add",
     "path": "/sites/-",
     "value": {
-      "siteId": "${data.mso_site.aws.id}",
+      "siteId": "${data.mso_site.azure.id}",
       "templateName": "Template1",
       "contracts": [
         {
