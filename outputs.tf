@@ -1,6 +1,6 @@
 output "subnet_name" {
-  value = "subnet-[10.101.210.128/25]"
-  description = "The ACI subnet object DN"
+  value = "subnet-10.101.210.128_25"
+  description = "The ACI subnet object name"
 }
 
 output "azure_site_id" {
