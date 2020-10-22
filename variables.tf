@@ -27,7 +27,3 @@ variable "input" {
   default = "1"
   description = "Test input"
 }
-
-variable "mso_username" {}
-variable "mso_password" {}
-variable "mso_url" {}
