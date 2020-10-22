@@ -22,6 +22,12 @@ variable "schema_name" {
   description = "The name of the MSO schema to be used"
 }
 
+variable "input" {
+  type = string
+  default = "1"
+  description = "Test input"
+}
+
 variable "mso_username" {}
 variable "mso_password" {}
 variable "mso_url" {}
